@@ -64,25 +64,31 @@ body {
 }
 
 #result {
-  max-width: 20rem;
+  max-width: 40rem;
   margin: 2rem auto;
   padding: 1rem;
-  table-layout: fixed;
-  border-spacing: 1rem;
-  text-align: right;
+  table-layout: auto;
+  border-spacing: 10rem;
+  text-align: center;
 }
 
 #result thead {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: #83e6c0;
 }
 
 #result tbody {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 0.85rem;
+  font-size: 1rem;
   color: #c2e9e0;
 }
 
 .center {
   text-align: center;
+}
+
+#result th,
+#result td {
+  padding: 1rem 2rem; /* Try larger padding values to see visible changes */
+  border: 1px solid #76c0ae; /* Add borders to visually check spacing */
 }
