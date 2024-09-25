@@ -1,7 +1,12 @@
 import React from "react";
 
 function Header() {
-  return <div>Header</div>;
+  return (
+    <header id="header">
+      <img src="/public/investment-calculator-logo.png" alt="Investment Logo" />
+      <h1>Investment Calculator</h1>
+    </header>
+  );
 }
 
 export default Header;
