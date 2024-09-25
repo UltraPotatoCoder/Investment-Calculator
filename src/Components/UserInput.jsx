@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 
-function UserInput() {
+function UserInput({ onCalculate }) {
   const [investmentData, setInvestmentData] = useState({
     initialInvestment: "",
     annualInvestment: "",
